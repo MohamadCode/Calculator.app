@@ -3,13 +3,13 @@ body {
     margin: 0 auto;
     padding: 20px 0;
     text-align: center;
-
-
+    background: linear-gradient(black, gray);
 }
 
 span {
     border-bottom: 2px solid black;
     padding: 4px;
+    color: goldenrodg;
 }
 
 button {

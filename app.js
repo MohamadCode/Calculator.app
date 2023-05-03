@@ -30,8 +30,8 @@ function subtract() {
 }
 
 
-function subtract() {
-    let result = num1 - num2
+function divide() {
+    let result = num1 / num2
     // result += 1
     sumEl.textContent = "Sum : " + result
 

@@ -9,44 +9,13 @@ let num2El = document.getElementById("num2-el").textContent = num2
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
 // Render the result of the calculation in the paragraph with id="sum-el"
-
 let sumEl = document.getElementById("sum-el")
 
 function add() {
     let result = num1 + num2
-    // result += 1
-    sumEl.textContent = "Sum : " + result
-
+    sumEl.textContent = "Sum: " + result
 
 }
-
-
-function subtract() {
-    let result = num1 - num2
-    // result += 1
-    sumEl.textContent = "Sum : " + result
-
-
-}
-
-
-function divide() {
-    let result = num1 / num2
-    // result += 1
-    sumEl.textContent = "Sum : " + result
-
-
-}
-
-
-function multiply() {
-    let result = num1 * num2
-    // result += 1
-    sumEl.textContent = "Sum : " + result
-
-
-}
-
 
 
 // E.g. if the user clicks on the "Plus" button, you should render

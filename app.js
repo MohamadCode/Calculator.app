@@ -11,7 +11,8 @@ let num2El = document.getElementById("num2-el").textContent = num2
 // Render the result of the calculation in the paragraph with id="sum-el"
 
 function add(num1, num2) {
-    console.log(num1 - num2)
+    
+
 
 }
 
